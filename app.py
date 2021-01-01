@@ -10,4 +10,4 @@ def tensorboard():
  	return render_template('tensorboard.html')
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run()
